@@ -11,19 +11,25 @@
 	        <li style="background-image: url(assets/img/banner/bg2.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Macarons</h1>
-	        		<p>Yumm Cookies.</p>
+	        		<p>Mmm Mmm Macarons. These will make you feel like your in the neighborhood of the Eiffel Tower in Paris, France. The flavors are kept as traditional as possible to give the most authentic macarons ever.</p>
+
+	        		<a href="#">Go to Store</a>
 	        	</div>
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg3.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Cookies</h1>
-	        		<p>Yumm Macarons.</p>
+	        		<p>Did someone say Cookies? Here at Yummies we have all sorts of cookies but our most popular are grandma's good ol recipe. These chocolate chip cookies fall apart as they touch your taste buds. A most have.</p>
+
+	        		<a href="#">Go to Store</a>
 	        	</div>
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg4.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Bread</h1>
-	        		<p>Yumm Bread.</p>
+	        		<p>Here at Yummies are have a variety of breads available that are baked fresh daily. We have everything from Rye, Wheat, Whole grain and even white.</p>
+
+	        		<a href="#">Go to Store</a>
 	        	</div>
 	        </li>
 	    </ul>

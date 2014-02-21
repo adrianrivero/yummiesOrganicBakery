@@ -2,4 +2,30 @@
 	<div class="sweetsInfo">
 		<h1>Sweets</h1>
 	</div>
+
+	<div class="liquid-slider"  id="slider-id">
+  <section>
+    <h2 class="title">Cupcakes</h2>
+    <p>Content</p>
+  </section>
+  <section>
+    <h2 class="title">Cookies</h2>
+    <p>Content</p>
+  </section>
+  <section>
+    <h2 class="title">Pastries</h2>
+    <p>Content</p>
+  </section>
+    <section>
+    <h2 class="title">Breads</h2>
+    <p>Content</p>
+  </section>
 </div>
+</div>
+
+<script>
+	$(function(){
+		$('#slider-id').liquidSlider();
+	});
+</script>
+
