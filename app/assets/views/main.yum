@@ -1,0 +1,42 @@
+	<div class="banner">
+	    <ul>
+	        <li style="background-image: url(assets/img/banner/bg1.jpg);background-size:940px;">
+	        	<div class="bannerText">
+		        	<h1>Cupcakes</h1>
+		        	<p>Chocolate Cupcakes made with a 100% organic products such as chocolate, flour, eggs and more. Also including a couple special Yummies ingredients. Also available in Gluten Free. Find them at our local store or check to see if we have some available in our online store.</p>
+
+		        	<a href="#">Go to Store</a>
+		        </div>
+	        </li>
+	        <li style="background-image: url(assets/img/banner/bg2.jpg);">
+	        	<div class="bannerText">
+	        		<h1>Macarons</h1>
+	        		<p>Yumm Cookies.</p>
+	        	</div>
+	        </li>
+	        <li style="background-image: url(assets/img/banner/bg3.jpg);">
+	        	<div class="bannerText">
+	        		<h1>Cookies</h1>
+	        		<p>Yumm Macarons.</p>
+	        	</div>
+	        </li>
+	        <li style="background-image: url(assets/img/banner/bg4.jpg);">
+	        	<div class="bannerText">
+	        		<h1>Bread</h1>
+	        		<p>Yumm Bread.</p>
+	        	</div>
+	        </li>
+	    </ul>
+	</div>
+
+<script>
+$('.banner').unslider({
+	speed: 500,               //  The speed to animate each slide (in milliseconds)
+	delay: 3000,              //  The delay between slide animations (in milliseconds)
+	complete: function() {},  //  A function that gets called after every slide animation
+	keys: false,               //  Enable keyboard (left, right) arrow shortcuts
+	dots: true,               //  Display dot navigation
+	fluid: true              //  Support responsive design. May break non-responsive designs
+});
+</script>
+

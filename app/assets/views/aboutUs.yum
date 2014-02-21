@@ -1,0 +1,13 @@
+<div class="aboutUs">
+	<div class="aboutUsInfo">
+		<h1>About Us</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dolor id est eleifend porta. Integer orci nisi, molestie sit amet leo non, pretium consectetur nisl. In egestas imperdiet fermentum. Cras non augue mauris. Sed sed convallis purus, sed ullamcorper nunc. In sit amet pellentesque dolor. Donec vitae elementum est, eget elementum ante. Etiam congue vehicula elit.</p>
+
+		<p>In eget justo placerat, convallis mi ac, mollis mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque est mauris, fringilla vitae convallis condimentum, vestibulum ut orci. Nam vel nisl nisi. Morbi commodo tempor erat vitae tincidunt. Nam facilisis odio vel neque ornare sodales. Nullam eros lorem, pulvinar sed convallis at, ornare eu ligula. Nullam sodales pretium risus nec pulvinar. Vivamus id urna in eros vulputate condimentum vel non ipsum. Sed non dapibus leo. Pellentesque adipiscing purus purus, a luctus lacus facilisis vitae. Nullam condimentum sapien at euismod cursus. Donec ultricies sed arcu sit amet molestie. Donec sit amet scelerisque risus, in suscipit velit.</p>
+
+		
+
+		<a href="#">Contact</a>
+
+	</div>
+</div>

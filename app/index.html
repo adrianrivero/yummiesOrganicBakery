@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html ng-app="YummiesApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Yummies Organic Bakery</title>
+
+		<!-- Icon -->
+		<link rel="icon" href="assets/img/favicon.ico"/>
+
+ 		<!-- Fonts -->
+ 		<link href='http://fonts.googleapis.com/css?family=Lily+Script+One|Mystery+Quest|Happy+Monkey' rel='stylesheet' type='text/css'>
+
+  		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+		<!-- Mobile View -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-top" role="navigation">
+
+	<div class="navbar-header">
+			<ul class="list-inline">
+				<li><a href="#/sweets">Sweets</a></li>
+				<li><a href="#/shop">Shop</a></li>
+				<li id="logo"><a href="#/"><img src="assets/img/logo.png" alt="Home Logo"></a></li>
+				<li><a href="#/aboutus">About Us</a></li>
+				<li><a href="#/contact">Contact</a></li>
+			</ul>
+	</div>
+	</nav>
+
+
+
+	<div ng-view></div>
+
+
+
+
+	<div class="navbar navbar-default navbar-fixed-bottom footer">
+		<div class="container">
+			<p class="footerText">&copy; Copyright 2013 Yummies Organic Bakery. All Rights Reserved</p>
+
+			<div class="socialLinks">
+			<p>Follow Us</p>
+				<a href="#"><img src="assets/img/fb.png"></a>
+				<a href="#"><img src="assets/img/twitter.png"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+
+
+		<!-- jQuery -->
+  		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+  		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+		<!-- AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.min.js"></script>
+
+		<!-- Firebase & AngularFire -->
+		<script src="https://cdn.firebase.com/js/client/1.0.2/firebase.js"></script>
+		<script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.js"></script>
+
+		<!-- Firebase Simple Login -->
+		<script src='https://cdn.firebase.com/js/simple-login/1.2.0/firebase-simple-login.js'></script>
+
+		<!-- Unslider -->
+  		<script src="//unslider.com/unslider.min.js"></script>
+
+		<!-- Javascript -->
+		<script src="assets/js/config.js"></script>
+		<script type="text/javascript" src="assets/js/ctrl/main.js"></script>
+		<script type="text/javascript" src="assets/js/yummies.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<div class="contact">
+	<div class="contactInfo">
+
+	<div class="storeInfo">
+		
+		<ul>
+			<li><img src="assets/img/logo.png" alt="Yummies Logo"></li>
+			<li>7211 west 24 ave</li>
+			<li>Hialeah, FL 33016</li>
+			<li>(305)555-5555</li>
+			<li>info@yummiesorganicbakery.com</li>
+		</ul>
+
+		<h2>Map</h2>
+		<div class="map">
+			
+		</div>
+	</div>
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<h2>Contact</h2>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="Name">Name</label>
+  <div class="controls">
+    <input id="Name" name="Name" type="text" placeholder="" class="input-xlarge" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="Email">Email</label>
+  <div class="controls">
+    <input id="Email" name="Email" type="text" placeholder="john@doe.com" class="input-xlarge" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="control-label" for="messageRadio">How can we Help?</label>
+  <div class="controls">
+    <select id="messageRadio" name="messageRadio" class="input-xlarge">
+      <option>Question</option>
+      <option>Comment</option>
+      <option>Report Issue</option>
+      <option>Special Requests</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="message">Message/Comments</label>
+  <div class="controls">                     
+    <textarea id="message" name="message"></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="send"></label>
+  <div class="controls">
+    <button id="send" name="send" class="btn btn-primary">Send</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+	</div>
+</div>
