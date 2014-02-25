@@ -1,9 +1,9 @@
-<div class="contact">
+<div class="pages">
 
 
   
 <form role="form-horizontal">
-<h2>Contact Us</h2>
+<h1>Contact Us</h1>
   <div class="form-group">
     <label for="exampleInputEmail1">Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Name Please">
@@ -44,9 +44,10 @@
       <li>info@yummiesorganicbakery.com</li>
     </ul>
 
+    <br>
+
     
     <div class="map">
-    <h2>Map</h2>
       <div id="map_canvas"></div>
     </div>
   </div>

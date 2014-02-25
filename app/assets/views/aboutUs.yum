@@ -1,4 +1,4 @@
-<div class="aboutUs">
+<div class="pages">
 	<div class="aboutUsInfo">
 		<h1>About Us</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dolor id est eleifend porta. Integer orci nisi, molestie sit amet leo non, pretium consectetur nisl. In egestas imperdiet fermentum. Cras non augue mauris. Sed sed convallis purus, sed ullamcorper nunc. In sit amet pellentesque dolor. Donec vitae elementum est, eget elementum ante. Etiam congue vehicula elit.</p>
@@ -9,5 +9,11 @@
 
 		<a href="#">Contact</a>
 
+	</div>
+
+	<div class="aboutUsImages">
+		<img class="aboutImage" src="assets/img/aboutus1.jpg">
+		<br>
+		<img class="aboutImage" src="assets/img/aboutus2.jpg">
 	</div>
 </div>
