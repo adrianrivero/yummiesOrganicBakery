@@ -1,7 +1,12 @@
   <script>
   $(function() {
-    $( "#tabs" ).tabs();
+    $( ".tabs" ).tabs();
   });
+
+  $('.sweetsLinks ul li a').click(function() {
+  $('.sweetsLinks ul li a').removeClass('active');    
+    $(this).addClass('active');
+  }); 
   </script>
 
 <div class="pages">
@@ -11,10 +16,10 @@
 	<div class="liquid-slider"  id="slider-id">
   <section>
     <h2 class="title">Cupcakes</h2>
-    <div id="tabs">
+    <div class="tabs">
     <div class="sweetsLinks">
       <ul>
-        <li><a href="#tabs-1">Choco-Lata</a></li>
+        <li><a class="active" href="#tabs-1">Choco-Lotta</a></li>
         <li><a href="#tabs-2">Peanut Butta Jelly</a></li>
         <li><a href="#tabs-3">Bacon & Pancakes</a></li>
         <li><a href="#tabs-4">The Usual</a></li>
@@ -22,30 +27,132 @@
     </div>
       <div id="tabs-1">
         <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+        <img class="sweetsImg" src="assets/img/choco.jpg">
+
       </div>
       <div id="tabs-2">
         <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+        <img class="sweetsImg" src="assets/img/pbcup.jpg">
       </div>
       <div id="tabs-3">
         <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+
+        <img class="sweetsImg" src="assets/img/bacon.jpg">
       </div>
       <div id="tabs-4">
         <p>Working</p>
+
+        <img class="sweetsImg" src="assets/img/usual.jpg">
       </div>
     </div>
   </section>
 
   <section>
     <h2 class="title">Cookies</h2>
-    <p>Content</p>
+
+   <div class="tabs">
+    <div class="sweetsLinks">
+      <ul>
+        <li><a class="active" href="#tabs-1">Chocolate Chip</a></li>
+        <li><a href="#tabs-2">Peanut Butter</a></li>
+        <li><a href="#tabs-3">Macarons</a></li>
+        <li><a href="#tabs-4">Oatmeal</a></li>
+      </ul>
+    </div>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+        <img class="sweetsImg" src="assets/img/chocoCookie.jpg">
+
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+        <img class="sweetsImg" src="assets/img/pbCookie.jpg">
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+
+        <img class="sweetsImg" src="assets/img/mac.jpg">
+      </div>
+      <div id="tabs-4">
+        <p>Working</p>
+
+        <img class="sweetsImg" src="assets/img/oatmeal.jpg">
+      </div>
+    </div>
+    
   </section>
+
+
   <section>
     <h2 class="title">Pastries</h2>
-    <p>Content</p>
+    
+    <div class="tabs">
+    <div class="sweetsLinks">
+      <ul>
+        <li><a class="active" href="#tabs-1">Eclair</a></li>
+        <li><a href="#tabs-2">Cheesecake</a></li>
+        <li><a href="#tabs-3">Cream Horn</a></li>
+        <li><a href="#tabs-4">Cinnamon Rolls</a></li>
+      </ul>
+    </div>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+        <img class="sweetsImg" src="assets/img/eclair.jpg">
+
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+        <img class="sweetsImg" src="assets/img/cheesecake.jpg">
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+
+        <img class="sweetsImg" src="assets/img/creamhorn.jpg">
+      </div>
+      <div id="tabs-4">
+        <p>Working</p>
+
+        <img class="sweetsImg" src="assets/img/cinnamon.jpg">
+      </div>
+    </div>
+
   </section>
     <section>
     <h2 class="title">Breads</h2>
-    <p>Content</p>
+    
+    <div class="tabs">
+    <div class="sweetsLinks">
+      <ul>
+        <li><a class="active" href="#tabs-1">White Bread</a></li>
+        <li><a href="#tabs-2">Rye Bread</a></li>
+        <li><a href="#tabs-3">Wheat Bread</a></li>
+      </ul>
+    </div>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+        <img class="sweetsImg" src="assets/img/white.jpg">
+
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+        <img class="sweetsImg" src="assets/img/rye.jpg">
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+
+        <img class="sweetsImg" src="assets/img/wheat.jpg">
+      </div>
+
+    </div>
+
   </section>
 </div>
 </div>

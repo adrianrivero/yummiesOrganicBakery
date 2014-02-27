@@ -163,6 +163,7 @@
 }
 .ls-wrapper .ls-nav .current {
   background: #f2f2f2;
+  padding: 5px;
   border: 5px #ff66cc dotted;
   
 }

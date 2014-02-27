@@ -4,9 +4,7 @@ body{
 	background-image: url(../img/bg.png);
 }
 
-nav{
-	display: block;
-}
+
 
 .navbar-header{
 	float: none;
@@ -243,7 +241,6 @@ nav ul li a:hover{
 
 .sweetsInfo{
 	display: block;
-	width: 90%;
 	padding: 40px;
 }
 
@@ -329,6 +326,10 @@ h2{
 	background: white;
 }
 
+#slider-id-wrapper{
+	width: 1400px;
+}
+
 .sweetsLinks{
 	font-family: 'Chewy', cursive;
 	font-size: 18px;
@@ -338,6 +339,7 @@ h2{
 	padding-right: 20px;
 	color:#ff66cc; 
 	text-decoration: none;
+	outline: 0;
 }
 
 .sweetsLinks a:hover{
@@ -357,8 +359,21 @@ h2{
 
 .sweetsInfo p{
 	text-align: justify;
+	float: left;
 	width: 60%;
+	padding-right: 10px;
 
+}
+
+.sweetsImg{
+	float: right;
+	display: block;
+	max-width: 300px;
+	width: 40%;
+	max-height: 200px;
+	background-color: black;
+	margin:0 auto;
+	margin-top: 5px;
 }
 
 #tab-1{
@@ -370,6 +385,15 @@ h2{
 
 .title{
 	display: none;
+}
+
+.active{
+	 -webkit-filter: drop-shadow(2px 2px 2px #000); 
+	 filter: drop-shadow(2px 2px 2px #000);
+}
+
+.currentPage{
+	color: white;
 }
 
 
