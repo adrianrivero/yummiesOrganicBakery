@@ -1,6 +1,6 @@
 	<div class="banner">
 	    <ul>
-	        <li style="background-image: url(assets/img/banner/bg1.jpg);background-size:940px;">
+	        <li style="background-image: url(assets/img/banner/bg1.jpg);background-size:1400px;">
 	        	<div class="bannerText">
 		        	<h1>Cupcakes</h1>
 		        	<p>Chocolate Cupcakes made with a 100% organic products such as chocolate, flour, eggs and more. Also including a couple special Yummies ingredients. Also available in Gluten Free. Find them at our local store or check to see if we have some available in our online store.</p>
@@ -10,7 +10,7 @@
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg2.jpg);">
 	        	<div class="bannerText">
-	        		<h1>Macarons</h1>
+	        		<h1>Macaroons</h1>
 	        		<p>Mmm Mmm Macarons. These will make you feel like your in the neighborhood of the Eiffel Tower in Paris, France. The flavors are kept as traditional as possible to give the most authentic macarons ever.</p>
 
 	        		<a href="#">Go to Store</a>
@@ -38,7 +38,7 @@
 <script>
 $('.banner').unslider({
 	speed: 500,               //  The speed to animate each slide (in milliseconds)
-	delay: 3000,              //  The delay between slide animations (in milliseconds)
+	delay: 10000,              //  The delay between slide animations (in milliseconds)
 	complete: function() {},  //  A function that gets called after every slide animation
 	keys: false,               //  Enable keyboard (left, right) arrow shortcuts
 	dots: true,               //  Display dot navigation
