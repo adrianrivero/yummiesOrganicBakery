@@ -2,17 +2,21 @@
 
 body{
 	background-image: url(../img/bg.png);
+	background-size: 100px;
+
 }
 
-nav{
-	display: block;
-}
+
 
 .navbar-header{
 	float: none;
 	margin: 0 auto;
 	display: inline-block;
+}
 
+.navbar{
+	margin-bottom: 0px;
+	border: none;
 }
 
 .navbar-top{
@@ -21,14 +25,14 @@ nav{
 
 nav ul li{
 	font-family: 'Lily Script One' ;
-	font-size: 28px;
+	font-size: 30px;
 	margin-right: 20px;
 	margin-left: 20px;
 
 }
 
 nav ul li a{
-	color: #ff66cc;
+	color: #bdd09f;
 	 -webkit-filter: drop-shadow(2px 2px 2px #555); 
 	 filter: drop-shadow(2px 2px 2px #555);
 }
@@ -36,21 +40,25 @@ nav ul li a{
 nav ul li a:hover{
 	text-decoration: none;
 	color: white;
+		 -webkit-filter: drop-shadow(3px 3px 3px #000); 
+	 filter: drop-shadow(3px 3px 3px #000);
 }
+
+/* F9EBBE aecb56*/
 
 .navbar-default{
-	background-image: none;
-	background-color: #cccccc;
-}
-
-#logo{
-	 -webkit-filter: drop-shadow(10px 10px 10px #999); 
-	 filter: drop-shadow(10px 10px 10px #888);
+	background-color: white;
+	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%)
 }
 
 #logo a:hover, .socialLinks a:hover{
-	 -webkit-filter: drop-shadow(5px 5px 5px #fff); 
-	 filter: drop-shadow(5px 5px 5px #fff);
+	 -webkit-filter: drop-shadow(3px 3px 3px #000); 
+	 filter: drop-shadow(3px 3px 3px #000);
+}
+
+.footer .container{
+	margin-top: 5px;
+	max-width: 960px;
 }
 
 .footerText{
@@ -61,28 +69,51 @@ nav ul li a:hover{
 	float: right;
 }
 
+.socialLinks p{
+	padding: 0;
+	margin:0 auto;
+}
+
 .footer p{
-	margin-top: 10px;
 	text-align: center;
 	font-family: 'Happy Monkey' ;
+	font-weight: bolder;
 	font-size: 14px;
 }
 
 .socialLinks img{
 	display: inline-block;
-}
-
-.socialLinks img{
 	width: 50px;
 }
 
 .banner { 
-	max-width: 940px;
-	height: 400px;
+	max-width: 1400px;
+	max-height: 595px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	position: relative; 
 	overflow: auto; 
+
+/* Internet Explorer 10 */
+display:-ms-flexbox;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Opera, and Chrome */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
 }
 
 .banner ul{
@@ -92,45 +123,44 @@ nav ul li a:hover{
 }
 
 .banner ul li { 
+	display: block;
 	list-style: none;
 	float: left; 
 	padding: 0;
 	margin: 0;
-	height: 395px;
+	height: 596px;
 	background-repeat: no-repeat;
-	background-size: 940px;
-	border: 5px solid white;
+	background-size: 1400px;
 }
 
 .bannerText{
 	display: block;
-	border: 1px solid white;
+	
 	width: 250px;
-	background: rgba(128, 128, 128, .7);
+	background: rgba(000, 000, 000, .8);
 	margin-top: 20px;
 	margin-left: 20px;
-	height: 350px;
 }
 
 .bannerText h1{
 	text-align: center;
-	font-family: 'Mystery Quest' ;
+	font-family: 'Chewy', cursive;
 	color: white;
 	padding: 5px;
+	padding-top: 30px;
 	font-size: 36px;
 }
 
 .bannerText p{
-	font-family: 'Happy Monkey' ;
+	font-family: Helvetica;
+	text-align: justify;
 	color: white;
-	padding: 10px;
+	padding: 15px;
 }
 
-/*.bannerText button{
-	padding: 10px;
-	display: block;
-	margin: 0 auto;
-}*/
+.buttons{
+	margin-bottom: 20px;
+}
 
 .bannerText a, .aboutUsInfo a{
 	display: block;
@@ -152,21 +182,20 @@ nav ul li a:hover{
 	font-family: 'Lily Script One' ;
 	font-size: 18px;
 	letter-spacing: 1px;
-
 	color: #fef4e9;
 	border: solid 1px #ffcccc;
 	background: #ffcccc;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffcccc), to(#66cccc));
-	background: -moz-linear-gradient(top,  #ffcccc,  #66cccc);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccc', endColorstr='#66cccc');
+	background: -webkit-gradient(linear, left top, left bottom, from(#aecb56), to(#cadd91));
+	background: -moz-linear-gradient(top,  #aecb56,  #cadd91);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aecb56', endColorstr='#cadd91');
 }
 
 
 .bannerText a:hover,.aboutUsInfo a:hover {
 	background: #f47c20;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffcccc), to(#669999));
-	background: -moz-linear-gradient(top,  #ffcccc,  #669999);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccc', endColorstr='#669999');
+	background: -webkit-gradient(linear, left top, left bottom, from(#cadd91), to(#e6efcb));
+	background: -moz-linear-gradient(top,  #cadd91,  #e6efcb);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cadd91', endColorstr='#e6efcb');
 }
 .bannerText a:active,.aboutUsInfo a:active {
 	color: #fcd3a5;
@@ -183,58 +212,280 @@ nav ul li a:hover{
 	top: 1px;
 }
 
-.aboutUs, .sweets, .contact {
+.panel{
+	box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+
+.pages {
 	display: block;
 	margin: 0 auto;
 	width: 90%;
+	margin-top: 30px;
+	max-width: 940px;
 	background-color: white;
-	border: 1px solid pink;
+	margin-bottom: 30px;
+	overflow:auto;
 }
 
-.aboutUsInfo, .contactInfo{
+.aboutUsInfo, .contactInfo, .shop{
 	display: block;
-	padding: 20px;
+	padding: 40px;
 }
 
-.aboutUsInfo h1, .sweets h1, .contact h1{
-	font-family: 'Mystery Quest' ;
-	font-size: 36px;
+.aboutUsInfo{
+	width: 60%;
+	text-align:justify;
+	float: left;
+}
+
+.aboutUsImages{
+	float: right;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+.aboutUsInfo a{
+	margin-top: 50px;
+}
+
+.aboutImage{
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+}
+
+.pages h1{
+	font-family: 'Chewy', cursive;
+	font-size: 40px;
 	padding-left: 10px;
 }
 
 .aboutUsInfo p{
-	font-family: 'Happy Monkey' ;
+	font-family: Helvetica ;
+	color: #424242;
 	word-spacing: 2px;
 }
 
 .storeInfo{
 	display: block;
-	margin: 0 auto;
-	padding-right: 50px;
+	width: 40%;
+	float: right;
+	margin-top: 110px;
+}
+
+.pages form{
+	display: block;
+	width: 60%;
+	padding: 40px;
 	float: left;
 }
 
-.storeInfo ul li {
+.sweetsInfo{
+	display: block;
+	padding: 40px;
+}
+
+.storeInfo ul{
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+}
+
+.storeInfo ul li{
 	list-style: none;
 	text-align: center;
+	font-family: 'Happy Monkey' ;
+
 }
 
-.storeInfo h2{
-	text-align: center;
+p{
+	font-family: Helvetica; 
+}
+
+h2{
+	font-family: 'Mystery Quest' ;
+}
+
+.contact h2{
+	font-family: 'Mystery Quest' ;
+}
+
+.map{
+	
+}
+
+#map_canvas {
+        width: 300px;
+        height: 300px;
+        background-color: #CCC;
+        margin: 0 auto;
+        margin-bottom: 30px;
+}
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+}
+
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+
+.dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+
+.footer{
+	clear: both;
+}
+
+#slider-id-nav-ul{
+	font-family: 'Lily Script One';
+	font-size: 30px;
+}
+
+#slider-id-nav-ul a{
+	color: #83929f;
+}
+
+.ls-wrapper .ls-nav a{
+	background: white;
+}
+
+#slider-id-wrapper{
+	width: 1400px;
+}
+
+.sweetsLinks{
+	font-family: 'Chewy', cursive;
+	font-size: 18px;
+}
+
+.sweetsLinks a{
+	padding-right: 20px;
+	color:#a3adb8; 
+	text-decoration: none;
+	outline: 0;
+}
+
+.sweetsLinks a:hover{
+	color: black;
+}
+
+.sweetsLinks ul{
+	display: block;
+	padding: 0px;
+}
+
+.sweetsLinks ul li{
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+
+.sweetsInfo p{
+	text-align: justify;
+	float: left;
+	width: 60%;
+	padding-right: 10px;
+
+}
+
+.sweetsImg{
+	display: block;
+	max-width: 300px;
+	width: 40%;
+	max-height: 200px;
+	background-color: black;
+	margin:0 auto;
+	margin-top: 5px;
+}
+
+#tab-1{
+	display: block;
+	clear: both;
 }
 
 
-@media (max-width: 940px) {
+
+.title{
+	display: none;
+}
+
+.active{
+	 -webkit-filter: drop-shadow(2px 2px 2px #000); 
+	 filter: drop-shadow(2px 2px 2px #000);
+}
+
+.currentPage{
+	color: white;
+}
+
+strong{
+	color: gray;
+}
+
+
+
+
+@media (max-width: 960px) {
 
   .banner { 
-	width: 90%;
-	height: 400px;
+	width: 100%;
 	margin: 0 auto;
-	margin-top: 50px;
 	position: relative; 
 	overflow: auto; 
 }
+
+.pages{
+	margin-top: 10px;
+	margin-bottom: 90px;
+}
+
+.banner ul li {
+	height: 550px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
   
+}
+
+@media (max-width: 640px){
+
+.socialLinks{
+	display: block;
+	float: none;
+	margin:0 auto;
+	text-align: center;
+}
+
+.socialLinks img{
+	margin: 0 auto;
+}
+
 }
 
 

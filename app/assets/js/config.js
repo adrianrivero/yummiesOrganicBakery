@@ -10,7 +10,7 @@ var app = angular.module('YummiesApp', ['ngRoute','firebase'])
 			})
 			//About Us
 			.when('/aboutus', {
-				templateUrl: 'assets/views/aboutus.yum',
+				templateUrl: 'assets/views/aboutUs.yum',
 				//controller: 'SignInController'
 			})
 

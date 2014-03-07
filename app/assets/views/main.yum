@@ -1,29 +1,39 @@
 	<div class="banner">
 	    <ul>
-	        <li style="background-image: url(assets/img/banner/bg1.jpg);background-size:940px;">
+	        <li style="background-image: url(assets/img/banner/bg1.jpg);background-size:1400px;">
 	        	<div class="bannerText">
 		        	<h1>Cupcakes</h1>
-		        	<p>Chocolate Cupcakes made with a 100% organic products such as chocolate, flour, eggs and more. Also including a couple special Yummies ingredients. Also available in Gluten Free. Find them at our local store or check to see if we have some available in our online store.</p>
+		        	<p>Chocolate Cupcakes made with a 100% organic products such as chocolate, flour, eggs and more. Also including a couple special Yummy ingredients. Also available in Gluten Free. Find them at our local store or check to see if we have some available in our online store.</p>
 
-		        	<a href="#">Go to Store</a>
+		        	<div class="buttons"><a href="#/shop">Go to Store</a></div>
+		        	<br>
 		        </div>
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg2.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Macarons</h1>
-	        		<p>Yumm Cookies.</p>
+	        		<p>Mmm Mmm Macarons. These will make you feel like your in the neighborhood of the Eiffel Tower in Paris, France. The flavors are kept as traditional as possible to give the most authentic macarons ever.</p>
+
+	        		<div class="buttons"><a href="#/shop">Go to Store</a></div>
+		        	<br>
 	        	</div>
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg3.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Cookies</h1>
-	        		<p>Yumm Macarons.</p>
+	        		<p>Did someone say Cookies? Here at Yummies we have all sorts of cookies but our most popular are grandma's good ol recipe. These chocolate chip cookies fall apart as they touch your taste buds. A most have.</p>
+
+	        		<div class="buttons"><a href="#/shop">Go to Store</a></div>
+		        	<br>
 	        	</div>
 	        </li>
 	        <li style="background-image: url(assets/img/banner/bg4.jpg);">
 	        	<div class="bannerText">
 	        		<h1>Bread</h1>
-	        		<p>Yumm Bread.</p>
+	        		<p>Here at Yummies are have a variety of breads available that are baked fresh daily. We have everything from Rye, Wheat, Whole grain and even white.</p>
+
+	        		<div class="buttons"><a href="#/shop">Go to Store</a></div>
+		        	<br>
 	        	</div>
 	        </li>
 	    </ul>
@@ -32,7 +42,7 @@
 <script>
 $('.banner').unslider({
 	speed: 500,               //  The speed to animate each slide (in milliseconds)
-	delay: 3000,              //  The delay between slide animations (in milliseconds)
+	delay: 10000,              //  The delay between slide animations (in milliseconds)
 	complete: function() {},  //  A function that gets called after every slide animation
 	keys: false,               //  Enable keyboard (left, right) arrow shortcuts
 	dots: true,               //  Display dot navigation

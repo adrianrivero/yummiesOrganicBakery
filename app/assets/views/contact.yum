@@ -1,77 +1,67 @@
-<div class="contact">
-	<div class="contactInfo">
+<div class="pages">
 
-	<div class="storeInfo">
-		
-		<ul>
-			<li><img src="assets/img/logo.png" alt="Yummies Logo"></li>
-			<li>7211 west 24 ave</li>
-			<li>Hialeah, FL 33016</li>
-			<li>(305)555-5555</li>
-			<li>info@yummiesorganicbakery.com</li>
-		</ul>
 
-		<h2>Map</h2>
-		<div class="map">
-			
-		</div>
-	</div>
-
-<form class="form-horizontal">
-<fieldset>
-
-<!-- Form Name -->
-<h2>Contact</h2>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="Name">Name</label>
-  <div class="controls">
-    <input id="Name" name="Name" type="text" placeholder="" class="input-xlarge" required="">
-    
+  
+<form role="form-horizontal">
+<h1>Contact Us</h1>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Name Please">
   </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="Email">Email</label>
-  <div class="controls">
-    <input id="Email" name="Email" type="text" placeholder="john@doe.com" class="input-xlarge" required="">
-    
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
   </div>
-</div>
 
-<!-- Select Basic -->
-<div class="control-group">
-  <label class="control-label" for="messageRadio">How can we Help?</label>
-  <div class="controls">
-    <select id="messageRadio" name="messageRadio" class="input-xlarge">
-      <option>Question</option>
-      <option>Comment</option>
-      <option>Report Issue</option>
+  <div class="form-group">
+  <label for="exampleInputEmail1">How Can We Help?</label>
+    <select class="form-control">
+      <option>Questions</option>
+      <option>Comments</option>
+      <option>Compliments</option>
+      <option>Issues</option>
       <option>Special Requests</option>
     </select>
   </div>
-</div>
 
-<!-- Textarea -->
-<div class="control-group">
-  <label class="control-label" for="message">Message/Comments</label>
-  <div class="controls">                     
-    <textarea id="message" name="message"></textarea>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Message</label>
+    <textarea class="form-control" rows="5"></textarea>
   </div>
-</div>
 
-<!-- Button -->
-<div class="control-group">
-  <label class="control-label" for="send"></label>
-  <div class="controls">
-    <button id="send" name="send" class="btn btn-primary">Send</button>
+  <div class="form-group">
+     <button type="submit" class="btn btn-primary" onclick="contactForm();return false">Submit</button>
   </div>
-</div>
-
-</fieldset>
 </form>
 
-	</div>
+  <div class="storeInfo">
+    
+    <ul>
+      <li><img src="assets/img/logo.png" alt="Yummies Logo"></li>
+      <li>7211 west 24 ave</li>
+      <li>Hialeah, FL 33016</li>
+      <li>(305)555-5555</li>
+      <li>info@yummiesorganicbakery.com</li>
+    </ul>
+
+    <br>
+
+    
+    <div class="map">
+      <div id="map_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.535928415083!2d-80.331237!3d25.884746999999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb22beffec77%3A0x7ec29594dc1cd698!2s2391+W+68th+St!5e0!3m2!1sen!2sus!4v1394067014073" width="300" height="300" frameborder="0" style="border:0"></iframe></div>
+    </div>
+  </div>
 </div>
+
+<script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map_canvas');
+    var mapOptions = {
+      center: new google.maps.LatLng(44.5403, -78.5463),
+      zoom: 8,
+    }
+    var map = new google.maps.Map(map_canvas, map_options);
+  };
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
