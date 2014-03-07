@@ -26,23 +26,39 @@
       </ul>
     </div>
       <div id="tabs-1">
-        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+        <div><p><strong>Choco-Lotta</strong> is our latest and tastiest of our cupcake collection. Featuring the richiest and finest in organic belgian chocolate for the frosting while having the softest moist cupcake ever. These cupcakes include only the simpliest organic products and unprocessed sugars needed to make these tasty delights.</p>
+
+        <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract and cocoa butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 4</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/choco.jpg">
 
       </div>
       <div id="tabs-2">
-        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        <div><p>Its <strong>Peanut-Butta Jelly</strong> time. These cupcakes are just that, creamy peanut butter and delicious jelly. It starts off as a vanilla cupcake with jelly filling and sweet peanut butter frosting to follow to make this a party in every bite. </p>
+
+        <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, peanut butter, jelly and cocoa butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 4</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/pbcup.jpg">
       </div>
       <div id="tabs-3">
-        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <div><p>Your probably reading the name of this cupcake thinking, "Can it be?". Well yes it can, a breakfast inspired cupcake to hit every taste bud with satisfaction. The cupcake is pancake batter filled with a touch of thick maple syrup. Follow by a marscapone cream cheese vanilla frost and a slice of bacon on top. Divinci had nothing on this masterpiece.</p>
+
+        <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, maple syrup, buttermilk, and marscapone cheese. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 4</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/bacon.jpg">
       </div>
       <div id="tabs-4">
-        <p>Working</p>
+        <div><p><strong>The Usual</strong> is simply your original cupcake. It's a vanilla cupcake with a creamy marscapone frosting. Great for a day when you just want a normal cupcake.</p>
+
+        <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, and marscapone cheese. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 4</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/usual.jpg">
       </div>
@@ -62,23 +78,39 @@
       </ul>
     </div>
       <div id="tabs-1">
-        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+        <div><p>The mother of all cookies, grandma's secret chocolate chip cookie recipe has come to life here at Yummies and they are oh so delicious. We dare you to take a bite and not like these sweet classics that fall apart in your mouth.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, chocolate chips. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 5</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/chocoCookie.jpg">
 
       </div>
       <div id="tabs-2">
-        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        <div><p>Our PB and J cupcakes were inspired by this cookie. Our peanut butter cookies are a must have when you come to Yummies with a tall glass of milk. These cookies are so good, safe, and low in sugar that even your K9 friend can have a peice. ( We recommend no more than half a cookie for your furry friends) </p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, peanut butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 5</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/pbCookie.jpg">
       </div>
       <div id="tabs-3">
-        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+       <div><p>A must have cookie with a french twist. Let us introduce you to the Macaroon. These yummy delights are made and matured for 2 days in a refrigerator just like in France. These hand made beauties will leave you day dreaming of a stroll out in the city of love. </p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, chocolate, almonds, cornstarch. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package 6 (3 Strawberry & 3 Chocolate)  </strong></p></div>
 
         <img class="sweetsImg" src="assets/img/mac.jpg">
       </div>
       <div id="tabs-4">
-        <p>Working</p>
+        <div><p>Something for our health buffs, a good ol Oatmeal cookie. Just enough to satisfy the sweet tooth craving.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, oats, cinnamon. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders come in package of 5</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/oatmeal.jpg">
       </div>
@@ -100,23 +132,39 @@
       </ul>
     </div>
       <div id="tabs-1">
-        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+        <div><p>A good ol fashion Eclair. This one comes traditional with chocolate topping and a creme custard filling. Delish!</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/eclair.jpg">
 
       </div>
       <div id="tabs-2">
-        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        <div><p>Our homestyle spin on the New York Cheesecake. We topped this bad boy with hand picked strawberrys for the local farms.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, strawberries. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/cheesecake.jpg">
       </div>
       <div id="tabs-3">
-        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <div><p>Gotta love a <strong>Cream Horn</strong>. These always take our older customers back to the good ol days. Make up of a breaded horn with yummy cream filling.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/creamhorn.jpg">
       </div>
       <div id="tabs-4">
-        <p>Working</p>
+        <div><p>Or most popular pastries yet. These are backed every morning made fresh from scratch for those who like to get their sweet tooth going early in the morning for the sugar rush. If you try this roll you will never forget it. We promise. </p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, cinnamon. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/cinnamon.jpg">
       </div>
@@ -135,18 +183,30 @@
       </ul>
     </div>
       <div id="tabs-1">
-        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+        <div><p>We know out of all our options this is the least healthy so that usually means its the one the tastes the best. We still are keeping on eye on making this bread as healthy as possible so its low on sugar and salt.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/white.jpg">
 
       </div>
       <div id="tabs-2">
-        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        <div><p>Made daily fresh to order. This bread is made of purely rye flour. Our healthiest option so you can still enjoy a slice a bread. Great alternative for those watching their weight or just wanting to stay in shape.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, rye flour, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/rye.jpg">
       </div>
       <div id="tabs-3">
-        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <div><p>Made daily fresh to order. Fresh wheat, low in flour to keep it as healthy as possible and easy on the waist line.</p>
+
+        <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, wheat, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
+
+        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
         <img class="sweetsImg" src="assets/img/wheat.jpg">
       </div>

@@ -1,13 +1,15 @@
 <div class="pages">
 	<div class="aboutUsInfo">
 		<h1>About Us</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dolor id est eleifend porta. Integer orci nisi, molestie sit amet leo non, pretium consectetur nisl. In egestas imperdiet fermentum. Cras non augue mauris. Sed sed convallis purus, sed ullamcorper nunc. In sit amet pellentesque dolor. Donec vitae elementum est, eget elementum ante. Etiam congue vehicula elit.</p>
+		<p>With a passion for sweets and a love for baking Yummies Organic Bakery came to exist.  Yummies takes classic baking recipes to new levels with their dedication to creating great clean desserts that people can enjoy.  Lindsay and Adrian founded Yummies in 2014.  The idea around what we would like to produce comes from Lindsay. </p>
 
-		<p>In eget justo placerat, convallis mi ac, mollis mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque est mauris, fringilla vitae convallis condimentum, vestibulum ut orci. Nam vel nisl nisi. Morbi commodo tempor erat vitae tincidunt. Nam facilisis odio vel neque ornare sodales. Nullam eros lorem, pulvinar sed convallis at, ornare eu ligula. Nullam sodales pretium risus nec pulvinar. Vivamus id urna in eros vulputate condimentum vel non ipsum. Sed non dapibus leo. Pellentesque adipiscing purus purus, a luctus lacus facilisis vitae. Nullam condimentum sapien at euismod cursus. Donec ultricies sed arcu sit amet molestie. Donec sit amet scelerisque risus, in suscipit velit.</p>
+		<p>Lindsay is as Occupational Therapist who is always watching what she eats and a supporter in the organic foods movement. In her line of work she deals with a lot of lovely children that unfortunately suffer from diseases such as Autism. People diagnosed with Autism or similar diseases such as Asperger’s are suggested to follow a strict diet avoiding dyes, artificial sweeteners and nitrates. Studies have found that people bodies suffering from these diseases have a hard time processing foods with these ingredients. This is how Yummies came to be. Lindsay wanted to create a place that would cater to consumers sweet tooth that feel eating organic is important while also providing desserts that were safe for people on strict diets.</p>
+
+		<p>Yummies is dedicated to using only environmentally safe and friendly products. We use only organic products. Our milk products are hormone free. The eggs come from caged free organic farms.  No MSG, no preservatives, no GMO’s, and definitely no processed sugars.  We are also working on a gluten free menu to provide sweets to consumers on gluten free diets. We don’t encourage eating bad but we also understand from time to time your taste buds need a break. We try to make that break as clean and safe as possible giving you only what’s needed without all the other added unnecessary ingredients.</p>
 
 		
 
-		<a href="#">Contact</a>
+		<a href="#/contact">Contact</a>
 
 	</div>
 
@@ -15,5 +17,8 @@
 		<img class="aboutImage" src="assets/img/aboutus1.jpg">
 		<br>
 		<img class="aboutImage" src="assets/img/aboutus2.jpg">
+		<br>
+		<img class="aboutImage" src="assets/img/aboutus3.jpg">
+		<br>
 	</div>
 </div>
