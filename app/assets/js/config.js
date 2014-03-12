@@ -1,4 +1,4 @@
-var app = angular.module('YummiesApp', ['ngRoute','firebase'])
+var app = angular.module('YummiesApp', ['ngAnimate','ngRoute','firebase'])
 
 	.config(['$routeProvider', function (routes) {
 
@@ -17,7 +17,7 @@ var app = angular.module('YummiesApp', ['ngRoute','firebase'])
 			//Shop
 			.when('/shop', {
 				templateUrl: 'assets/views/shop.yum',
-				//controller: 'SignUpController'
+				controller: 'StoreController'
 			})
 
 			//Contact 

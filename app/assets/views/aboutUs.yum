@@ -14,11 +14,11 @@
 	</div>
 
 	<div class="aboutUsImages">
-		<img class="aboutImage" src="assets/img/aboutus1.jpg">
+		<img class="aboutImage" src="assets/img/aboutus1.jpg" alt="Yummies Organic Bakery Pastries">
 		<br>
-		<img class="aboutImage" src="assets/img/aboutus2.jpg">
+		<img class="aboutImage" src="assets/img/aboutus2.jpg" alt="Yummies Organic Bakery Pastries">
 		<br>
-		<img class="aboutImage" src="assets/img/aboutus3.jpg">
+		<img class="aboutImage" src="assets/img/aboutus3.jpg" alt="Yummies Organic Bakery Pastries">
 		<br>
 	</div>
 </div>
