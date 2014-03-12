@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 	$('nav').addClass('animated bounceInDown');
 
+	$('.footer').addClass('animated fadeIn');
+
 	// SimpleCart
 
 	simpleCart.ready( function(){
@@ -13,8 +15,14 @@ $(document).ready(function(){
 		});
 	});
 
+	$(".product").lazyload({
+    	effect : "fadeIn"
+	});
+
 	
 });
+
+
 
 
 // current page highlight
