@@ -30,7 +30,19 @@ simpleCart.update();
 
 		<div class="clear"></div>
 
-		<div class="product">
+		<div class="product mix" ng-repeat="product in products">
+			<div class="simpleCart_shelfItem">
+			<h2 class="item_name">{{product.name}}</h2>
+			   <img src="assets/img/{{product.img}}" alt="{{product.name}}">
+			   <p>{{product.info}}</p>
+			   <p><strong>Package includes:{{product.quantity}}</strong></p>
+			   <br>
+			   <span class="item_price">{{product.price}}</span>
+			   <a href="javascript:;" class="item_add">Add to Cart</a>
+			</div>
+		</div>
+
+<!-- 		<div class="product">
 			<div class="simpleCart_shelfItem">
 			   <h2 class="item_name">Choco-Lotta</h2>
 			   <img src="assets/img/choco.jpg" alt="Item Alt">
@@ -48,7 +60,7 @@ simpleCart.update();
 			   <span class="item_price">$9.99</span>
 			   <a href="javascript:;" class="item_add">Add to Cart</a>
 			</div>
-		</div>
+		</div> -->
 
 		
 	</div>

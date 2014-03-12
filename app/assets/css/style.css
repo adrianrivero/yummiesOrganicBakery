@@ -71,7 +71,7 @@ nav ul li a:hover{
 
 .navbar-default{
 	background-color: white;
-	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%)
+	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
 }
 
 #logo a:hover, .socialLinks a:hover{
@@ -286,6 +286,7 @@ box-align:center;
 	font-family: 'Chewy', cursive;
 	font-size: 40px;
 	padding-left: 10px;
+	padding-bottom: 20px;
 }
 
 .aboutUsInfo p{
@@ -550,7 +551,7 @@ strong{
 }
 
 .headerRow{
-	background-color: #BC7642;
+	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
@@ -568,6 +569,7 @@ strong{
 }
 
 .headerRow .item-total{
+	display: none;
 	width: 0px;
 	color: #BC7642;
 }
@@ -592,7 +594,7 @@ strong{
 }
 
 .cartFooter{
-	background-color: #BC7642;
+	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
 	padding: 3px;
 }
 

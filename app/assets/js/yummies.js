@@ -1,10 +1,8 @@
 $(document).ready(function(){
 
-	$('nav').addClass('animated bounceIn');
+	$('nav').addClass('animated bounceInDown');
 
-	$('.nav-btn').click(function () {
-    	$('nav').toggleClass('bounceIn bounceOut');
-	});
+	// SimpleCart
 
 	simpleCart.ready( function(){
 		simpleCart({
@@ -19,10 +17,14 @@ $(document).ready(function(){
 });
 
 
+// current page highlight
+
 $('.list-inline li a').click(function() {
 	$('.list-inline li a').removeClass('currentPage');    
 	$(this).addClass('currentPage');
 }); 
+
+// Contact Form Test
 
 function contactForm(){
 	alert('Thanks!');
@@ -37,6 +39,9 @@ function toggle_visibility(id) {
 }
 
 function init(){
+
+	// Sweets Tabs
+
 	$(function() {
 		$( ".tabs" ).tabs();
 	});
@@ -45,6 +50,8 @@ function init(){
 		$('.sweetsLinks ul li a').removeClass('active');    
 		$(this).addClass('active');
 	}); 
+
+	// Main Banner
 
 	$('.banner').unslider({
 		speed: 500,               //  The speed to animate each slide (in milliseconds)
