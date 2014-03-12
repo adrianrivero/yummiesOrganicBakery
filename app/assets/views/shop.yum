@@ -1,9 +1,55 @@
+
+<script>
+simpleCart.update();
+</script>
+
+
 <div class="pages">
 	<div class="shop">
 		<h1>Shop</h1>
 
-		<div class="product">
-			
+		<div class="cart">
+			<div id="bold" onclick="toggle_visibility('cartInfo');"><span class="simpleCart_quantity">0</span> Items</div>
+			<div>|</div>
+			<div><a href="javascript:;" class="simpleCart_checkout">Checkout</a></div>
 		</div>
+		<div class="clear"></div>
+
+		<div class="cartInfo" id="cartInfo">
+				<div class="simpleCart_items"></div>
+				<br>
+				<div class="total">
+					<div><p>Total:</p></div><div class="simpleCart_total"></div>
+				</div>
+				<div class="cartFooter">
+				<a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
+				<a class="check" href="javascript:;" class="simpleCart_checkout">Checkout</a>
+				</div>
+			</div>
+
+
+		<div class="clear"></div>
+
+		<div class="product">
+			<div class="simpleCart_shelfItem">
+			   <h2 class="item_name">Choco-Lotta</h2>
+			   <img src="assets/img/choco.jpg" alt="Item Alt">
+			   <p>Check Description of no more than about 140 characters.</p>
+			   <span class="item_price">$9.99</span>
+			   <a href="javascript:;" class="item_add">Add to Cart</a>
+			</div>
+		</div>
+
+		<div class="product">
+			<div class="simpleCart_shelfItem">
+			   <h2 class="item_name">Peanut Butta Jelly</h2>
+			   <img src="assets/img/pbcup.jpg" alt="Item Alt">
+			   <p>Check Description of no more than about 140 characters.</p>
+			   <span class="item_price">$9.99</span>
+			   <a href="javascript:;" class="item_add">Add to Cart</a>
+			</div>
+		</div>
+
+		
 	</div>
 </div>

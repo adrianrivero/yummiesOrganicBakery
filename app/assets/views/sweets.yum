@@ -1,12 +1,5 @@
   <script>
-  $(function() {
-    $( ".tabs" ).tabs();
-  });
-
-  $('.sweetsLinks ul li a').click(function() {
-  $('.sweetsLinks ul li a').removeClass('active');    
-    $(this).addClass('active');
-  }); 
+init();
   </script>
 
 <div class="pages">
@@ -32,7 +25,7 @@
 
         <p><strong>Online orders come in package of 4</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/choco.jpg">
+        <img class="sweetsImg" src="assets/img/choco.jpg" alt="Yummies Choco-Lotta Cupcake">
 
       </div>
       <div id="tabs-2">
@@ -42,7 +35,7 @@
 
         <p><strong>Online orders come in package of 4</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/pbcup.jpg">
+        <img class="sweetsImg" src="assets/img/pbcup.jpg" alt="Yummies Peanut-Butta Jelly Cupcake">
       </div>
       <div id="tabs-3">
         <div><p>Your probably reading the name of this cupcake thinking, "Can it be?". Well yes it can, a breakfast inspired cupcake to hit every taste bud with satisfaction. The cupcake is pancake batter filled with a touch of thick maple syrup. Follow by a marscapone cream cheese vanilla frost and a slice of bacon on top. Divinci had nothing on this masterpiece.</p>
@@ -51,7 +44,7 @@
 
         <p><strong>Online orders come in package of 4</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/bacon.jpg">
+        <img class="sweetsImg" src="assets/img/bacon.jpg" alt="Yummies Bacon & Pancake Cucake">
       </div>
       <div id="tabs-4">
         <div><p><strong>The Usual</strong> is simply your original cupcake. It's a vanilla cupcake with a creamy marscapone frosting. Great for a day when you just want a normal cupcake.</p>
@@ -60,7 +53,7 @@
 
         <p><strong>Online orders come in package of 4</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/usual.jpg">
+        <img class="sweetsImg" src="assets/img/usual.jpg" alt="Yummies 'The Usual' Cupcake">
       </div>
     </div>
   </section>
@@ -84,7 +77,7 @@
 
         <p><strong>Online orders come in package of 5</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/chocoCookie.jpg">
+        <img class="sweetsImg" src="assets/img/chocoCookie.jpg" alt="Yummies Chocolate Chip Cookie">
 
       </div>
       <div id="tabs-2">
@@ -94,7 +87,7 @@
 
         <p><strong>Online orders come in package of 5</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/pbCookie.jpg">
+        <img class="sweetsImg" src="assets/img/pbCookie.jpg" alt="Yummies Peanut Butter Cookie">
       </div>
       <div id="tabs-3">
        <div><p>A must have cookie with a french twist. Let us introduce you to the Macaroon. These yummy delights are made and matured for 2 days in a refrigerator just like in France. These hand made beauties will leave you day dreaming of a stroll out in the city of love. </p>
@@ -103,7 +96,7 @@
 
         <p><strong>Online orders come in package 6 (3 Strawberry & 3 Chocolate)  </strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/mac.jpg">
+        <img class="sweetsImg" src="assets/img/mac.jpg" alt="Yummies Macaroons">
       </div>
       <div id="tabs-4">
         <div><p>Something for our health buffs, a good ol Oatmeal cookie. Just enough to satisfy the sweet tooth craving.</p>
@@ -112,7 +105,7 @@
 
         <p><strong>Online orders come in package of 5</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/oatmeal.jpg">
+        <img class="sweetsImg" src="assets/img/oatmeal.jpg" alt="Yummies Oatmeal Cookies">
       </div>
     </div>
     
@@ -138,7 +131,7 @@
 
         </div>
 
-        <img class="sweetsImg" src="assets/img/eclair.jpg">
+        <img class="sweetsImg" src="assets/img/eclair.jpg" alt="Yummies Eclair">
 
       </div>
       <div id="tabs-2">
@@ -148,7 +141,7 @@
 
         </div>
 
-        <img class="sweetsImg" src="assets/img/cheesecake.jpg">
+        <img class="sweetsImg" src="assets/img/cheesecake.jpg" alt="Yummies Chessecake">
       </div>
       <div id="tabs-3">
         <div><p>Gotta love a <strong>Cream Horn</strong>. These always take our older customers back to the good ol days. Make up of a breaded horn with yummy cream filling.</p>
@@ -157,7 +150,7 @@
 
         </div>
 
-        <img class="sweetsImg" src="assets/img/creamhorn.jpg">
+        <img class="sweetsImg" src="assets/img/creamhorn.jpg" alt="Yummies Cream Horn">
       </div>
       <div id="tabs-4">
         <div><p>Or most popular pastries yet. These are backed every morning made fresh from scratch for those who like to get their sweet tooth going early in the morning for the sugar rush. If you try this roll you will never forget it. We promise. </p>
@@ -166,7 +159,7 @@
 
         </div>
 
-        <img class="sweetsImg" src="assets/img/cinnamon.jpg">
+        <img class="sweetsImg" src="assets/img/cinnamon.jpg" alt="Yummies Cinnamon Rolls">
       </div>
     </div>
 
@@ -183,13 +176,13 @@
       </ul>
     </div>
       <div id="tabs-1">
-        <div><p>We know out of all our options this is the least healthy so that usually means its the one the tastes the best. We still are keeping on eye on making this bread as healthy as possible so its low on sugar and salt.</p>
+        <div><p>A Delicious fluffy loaf of tasty white bread. Despite it being white we try to keep it as healthy as possible without effecting the taste. Lower sugar and salt compared to store brands.</p>
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
         <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/white.jpg">
+        <img class="sweetsImg" src="assets/img/white.jpg" alt="Yummies White Bread">
 
       </div>
       <div id="tabs-2">
@@ -199,7 +192,7 @@
 
         <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/rye.jpg">
+        <img class="sweetsImg" src="assets/img/rye.jpg" alt="Yummies Rye Bread">
       </div>
       <div id="tabs-3">
         <div><p>Made daily fresh to order. Fresh wheat, low in flour to keep it as healthy as possible and easy on the waist line.</p>
@@ -208,7 +201,7 @@
 
         <p><strong>Online orders as a 1 LB loaf</strong></p></div>
 
-        <img class="sweetsImg" src="assets/img/wheat.jpg">
+        <img class="sweetsImg" src="assets/img/wheat.jpg" alt="Yummies Wheat Bread">
       </div>
 
     </div>
