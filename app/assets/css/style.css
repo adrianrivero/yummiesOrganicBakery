@@ -695,6 +695,21 @@ strong{
 	.banner ul li{
 		background-size: 768px;
 	}
+
+	.navbar-header ul li{
+		font-size: 24px;
+	}
+
+	#logo img{
+		width: 130px;
+	}
+
+	.product{
+		width: 48%;
+		padding:10px;
+		margin:0 auto;
+	}
+
 }
 
 @media (max-width: 640px){
