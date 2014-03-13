@@ -655,6 +655,10 @@ strong{
     to { opacity: 1; }
   }
 
+  .odd{
+  	background-color:#dddddd;
+  }
+
 .clear{
 	clear: both;
 }
@@ -679,11 +683,6 @@ strong{
 	height: 560px;
 }
 
-.footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
   
 }
 
@@ -714,16 +713,16 @@ strong{
 
 @media (max-width: 640px){
 
-.socialLinks{
-	display: block;
-	float: none;
-	margin:0 auto;
-	text-align: center;
-}
+	.socialLinks{
+		display: block;
+		float: none;
+		margin:0 auto;
+		text-align: center;
+	}
 
-.socialLinks img{
-	margin: 0 auto;
-}
+	.socialLinks img{
+		margin: 0 auto;
+	}
 
 }
 
