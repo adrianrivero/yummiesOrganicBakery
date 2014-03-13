@@ -186,7 +186,7 @@ box-align:center;
 	margin-bottom: 20px;
 }
 
-.bannerText a, .aboutUsInfo a, .product a{
+.bannerText a, .aboutUsInfo a, .product a, .sweetsButton a{
 	display: block;
 	width: 150px;
 	outline: none;
@@ -213,7 +213,6 @@ box-align:center;
 	background: -moz-linear-gradient(top,  #aecb56,  #cadd91);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aecb56', endColorstr='#cadd91');
 }
-
 
 .bannerText a:hover,.aboutUsInfo a:hover, .product a:hover {
 	background: #f47c20;
@@ -492,11 +491,20 @@ strong{
 	padding-top: 10px;
 }
 
-.product a{
+.product a, .sweetsButton a{
 	float: right;
 	margin-right: 10px;
 	width: 120px;
 	font-size: 14px;
+}
+
+.sweetsButton a{
+	float: right;
+}
+
+.packageDetail strong{
+	margin-top: 20px;
+	float: right;
 }
 
 .product span{
@@ -707,6 +715,10 @@ strong{
 		width: 48%;
 		padding:10px;
 		margin:0 auto;
+	}
+
+	.footer{
+		bottom: 0;
 	}
 
 }
