@@ -23,7 +23,11 @@ init();
 
         <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract and cocoa butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 4</strong></p></div>
+
+        <p class="packageDetail"><strong>Online orders come in package of 4</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+        </div>
 
         <img class="sweetsImg" src="assets/img/choco.jpg" alt="Yummies Choco-Lotta Cupcake">
 
@@ -33,7 +37,11 @@ init();
 
         <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, peanut butter, jelly and cocoa butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 4</strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package of 4</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/pbcup.jpg" alt="Yummies Peanut-Butta Jelly Cupcake">
       </div>
@@ -42,7 +50,7 @@ init();
 
         <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, maple syrup, buttermilk, and marscapone cheese. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 4</strong></p></div>
+        </div>
 
         <img class="sweetsImg" src="assets/img/bacon.jpg" alt="Yummies Bacon & Pancake Cucake">
       </div>
@@ -51,7 +59,11 @@ init();
 
         <p><strong>Ingredients:</strong> flour, baking soda, baking powder, butter, eggs, milk, vanilla extract, and marscapone cheese. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 4</strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package of 4</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/usual.jpg" alt="Yummies 'The Usual' Cupcake">
       </div>
@@ -75,7 +87,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, chocolate chips. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 5</strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package of 10</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/chocoCookie.jpg" alt="Yummies Chocolate Chip Cookie">
 
@@ -85,7 +101,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, peanut butter. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 5</strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package of 10</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/pbCookie.jpg" alt="Yummies Peanut Butter Cookie">
       </div>
@@ -94,7 +114,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, chocolate, almonds, cornstarch. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package 6 (3 Strawberry & 3 Chocolate)  </strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package 8 (4 Strawberry & 4 Chocolate)  </strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/mac.jpg" alt="Yummies Macaroons">
       </div>
@@ -103,7 +127,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, oats, cinnamon. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders come in package of 5</strong></p></div>
+        <p class="packageDetail"><strong>Online orders come in package of 10</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/oatmeal.jpg" alt="Yummies Oatmeal Cookies">
       </div>
@@ -157,6 +185,10 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, vanilla extract, baking soda, water, salt, cinnamon. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
+        <p class="packageDetail"><strong>Online orders come in package of 4</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
         </div>
 
         <img class="sweetsImg" src="assets/img/cinnamon.jpg" alt="Yummies Cinnamon Rolls">
@@ -180,7 +212,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
+        <p class="packageDetail"><strong>Online orders as a 1 LB loaf</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/white.jpg" alt="Yummies White Bread">
 
@@ -190,7 +226,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, rye flour, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
+        <p class="packageDetail"><strong>Online orders as a 1 LB loaf</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/rye.jpg" alt="Yummies Rye Bread">
       </div>
@@ -199,7 +239,11 @@ init();
 
         <p><strong>Ingredients:</strong> butter, unprocessed brown sugar, eggs, baking soda, water, salt, wheat, yeast, oil. All products are organic and hormone free so you know your putting safe ingredients in your body.</p>
 
-        <p><strong>Online orders as a 1 LB loaf</strong></p></div>
+        <p class="packageDetail"><strong>Online orders as a 1 LB loaf</strong></p>
+
+        <p class="sweetsButton"><a href="#/shop" class="buttons">Go To Shop</a></p>
+
+        </div>
 
         <img class="sweetsImg" src="assets/img/wheat.jpg" alt="Yummies Wheat Bread">
       </div>
