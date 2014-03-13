@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 
 	$('nav').addClass('animated bounceInDown');
 
@@ -18,7 +18,6 @@ $(document).ready(function(){
 	$(".product").lazyload({
     	effect : "fadeIn"
 	});
-
 	
 });
 
