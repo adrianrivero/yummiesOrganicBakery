@@ -72,7 +72,10 @@ nav ul li a:hover{
 .navbar-default{
 	background-color: white;
 	background-image:-webkit-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
-}
+	background-image:-moz-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
+	background-image:-ms-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
+	background-image:-linear-gradient(top,#E9C2A6 0,#BC7642 100%);
+}	
 
 #logo a:hover, .socialLinks a:hover{
 	 -webkit-filter: drop-shadow(3px 3px 3px #000); 
