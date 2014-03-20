@@ -26,8 +26,8 @@ $(function(){
 
 // current page highlight
 
-$('.list-inline li a').click(function() {
-	$('.list-inline li a').removeClass('currentPage');    
+$('nav li a').click(function() {
+	$('nav li a').removeClass('currentPage');    
 	$(this).addClass('currentPage');
 }); 
 

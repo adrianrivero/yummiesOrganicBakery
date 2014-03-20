@@ -3,14 +3,14 @@
 
 <article>
 
-<form>
+<form role="form" ng-submit="SignIn()">
 	<h1>Log In</h1>
 	<p>Username</p>
-	<input type="user" id="userId" placeholder="">
+	<input type="user" id="userId" ng-model="user" placeholder="">
 	<br>
 	<br>
 	<p>Password</p>
-	<input type="password" id="password" placeholder="">
+	<input type="password" id="password" ng-model="pass" placeholder="">
 	<br>
 	<br>
 	<button type="submit">Submit</button>
