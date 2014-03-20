@@ -1,0 +1,22 @@
+<div id="admin">
+
+
+<article>
+
+<form>
+	<h1>Log In</h1>
+	<p>Username</p>
+	<input type="user" id="userId" placeholder="">
+	<br>
+	<br>
+	<p>Password</p>
+	<input type="password" id="password" placeholder="">
+	<br>
+	<br>
+	<button type="submit">Submit</button>
+</form>
+
+	
+</article>
+
+</div>

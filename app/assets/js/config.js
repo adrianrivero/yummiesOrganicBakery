@@ -30,6 +30,12 @@ var app = angular.module('YummiesApp', ['ngAnimate','ngRoute','firebase'])
 				templateUrl: 'assets/views/sweets.yum',
 			})
 
+			//admin
+			.when('/admin',{
+				templateUrl: 'assets/views/admin.yum',
+				controller:'AdminController'
+			})
+
 			.otherwise({redirectTo:'/'});
 
 	}]);
