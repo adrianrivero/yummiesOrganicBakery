@@ -9,7 +9,7 @@ simpleCart.update();
 		<h1>Shop</h1>
 
 		<div class="cart">
-			<div id="bold" onclick="toggle_visibility('cartInfo');"><span class="simpleCart_quantity">0</span> Items</div>
+			<div id="bold" onclick="toggleDisplay();"><span class="simpleCart_quantity">0</span> Items</div>
 			<div>|</div>
 			<div><a href="javascript:;" class="simpleCart_checkout">Checkout</a></div>
 		</div>
@@ -65,3 +65,4 @@ simpleCart.update();
 		
 	</div>
 </div>
+

@@ -21,21 +21,25 @@ $(function(){
 	
 });
 
-
-
-
-// current page highlight
-
+   
 $('nav li a').click(function() {
 	$('nav li a').removeClass('currentPage');    
 	$(this).addClass('currentPage');
 }); 
+
+function toggleDisplay() {
+    var cart = document.getElementById("cartInfo");
+    cart.style.display = (cart.style.display == "block") ? "none" : "block";
+};
+
+
 
 // Contact Form Test
 
 function contactForm(){
 	alert('Thanks!');
 };
+
 
 function init(){
 

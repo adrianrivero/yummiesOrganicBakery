@@ -5,9 +5,6 @@
 
 <form role="form" ng-submit="SubmitProduct()">
 	<h1>Add Item</h1>
-
-	<h2>Uploaded!</h2>
-	<br>
 	<p>Product Name</p>
 	<input type="input" id="userId" ng-model="name" placeholder="">
 	<br>
