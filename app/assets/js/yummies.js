@@ -26,8 +26,8 @@ $(function(){
 
 // current page highlight
 
-$('.list-inline li a').click(function() {
-	$('.list-inline li a').removeClass('currentPage');    
+$('nav li a').click(function() {
+	$('nav li a').removeClass('currentPage');    
 	$(this).addClass('currentPage');
 }); 
 
@@ -36,14 +36,6 @@ $('.list-inline li a').click(function() {
 function contactForm(){
 	alert('Thanks!');
 };
-
-function toggle_visibility(id) {
-	var e = document.getElementById(id);
-	if(e.style.display == 'block')
-	e.style.display = 'none';
-	else
-	e.style.display = 'block';
-}
 
 function init(){
 

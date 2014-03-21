@@ -1,0 +1,33 @@
+<div id="admin">
+
+
+<article>
+
+<form role="form" ng-submit="SubmitProduct()">
+	<h1>Add Item</h1>
+
+	<h2>Uploaded!</h2>
+	<br>
+	<p>Product Name</p>
+	<input type="input" id="userId" ng-model="name" placeholder="">
+	<br>
+	<br>
+	<p>Price</p>
+	<input type="input" id="price" ng-model="price" placeholder="">
+	<br>
+	<br>
+	<p>Info</p>
+	<input type="input" id="info" ng-model="info" placeholder="">
+	<br>
+	<br>
+	<p>Image</p>
+	<input type="file" id="image" ng-model="image" name="file[]">
+	<br>
+	<br>
+	<button type="submit">Submit</button>
+</form>
+
+	
+</article>
+
+</div>

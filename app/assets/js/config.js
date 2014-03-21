@@ -36,6 +36,12 @@ var app = angular.module('YummiesApp', ['ngAnimate','ngRoute','firebase'])
 				controller:'AdminController'
 			})
 
+			//loggedin
+			.when('/loggedin',{
+				templateUrl: 'assets/views/loggedin.yum',
+				controller:'AdminController'
+			})
+
 			.otherwise({redirectTo:'/'});
 
 	}]);
