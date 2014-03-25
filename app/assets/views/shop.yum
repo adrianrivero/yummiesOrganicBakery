@@ -40,29 +40,7 @@ simpleCart.update();
 			   <span class="item_price">{{product.price}}</span>
 			   <a href="javascript:;" class="item_add">Add to Cart</a>
 			</div>
-		</div>
-
-<!-- 		<div class="product">
-			<div class="simpleCart_shelfItem">
-			   <h2 class="item_name">Choco-Lotta</h2>
-			   <img src="assets/img/choco.jpg" alt="Item Alt">
-			   <p>Check Description of no more than about 140 characters.</p>
-			   <span class="item_price">$9.99</span>
-			   <a href="javascript:;" class="item_add">Add to Cart</a>
-			</div>
-		</div>
-
-		<div class="product">
-			<div class="simpleCart_shelfItem">
-			   <h2 class="item_name">Peanut Butta Jelly</h2>
-			   <img src="assets/img/pbcup.jpg" alt="Item Alt">
-			   <p>Check Description of no more than about 140 characters.</p>
-			   <span class="item_price">$9.99</span>
-			   <a href="javascript:;" class="item_add">Add to Cart</a>
-			</div>
-		</div> -->
-
-		
+		</div>		
 	</div>
 </div>
 

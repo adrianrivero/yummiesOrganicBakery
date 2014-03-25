@@ -1,4 +1,4 @@
-<div id="admin">
+<div id="admin" class="loggedin">
 
 
 <article>
@@ -6,18 +6,21 @@
 <form role="form" ng-submit="SubmitProduct()">
 	<h1>Add Item</h1>
 	<p>Product Name</p>
-	<input type="input" id="userId" ng-model="name" placeholder="">
+	<input type="input" id="name" ng-model="name" placeholder="">
 	<br>
+	<br>
+	<p>Quantity Per Package</p>
+	<input type="input" id="quantity" ng-model="quantity" placeholder="">
 	<br>
 	<p>Price</p>
-	<input type="input" id="price" ng-model="price" placeholder="">
+	<input type="input" id="price" ng-model="price" placeholder="$">
 	<br>
 	<br>
 	<p>Info</p>
-	<input type="input" id="info" ng-model="info" placeholder="">
+	<input type="input" id="info" ng-model="productInfo" placeholder="">
 	<br>
 	<br>
-	<p>Image</p>
+	<p>Image (300 x 200)</p>
 	<input type="file" id="image" ng-model="image" name="file[]">
 	<br>
 	<br>
