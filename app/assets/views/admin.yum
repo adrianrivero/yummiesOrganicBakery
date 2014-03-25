@@ -5,12 +5,13 @@
 
 <form role="form" ng-submit="SignIn()">
 	<h1>Log In</h1>
+	<h5>{{error}}</h5>
 	<p>Username</p>
-	<input type="user" id="userId" ng-model="user" placeholder="">
+	<input type="user" id="user" ng-model="user" placeholder="">
 	<br>
 	<br>
 	<p>Password</p>
-	<input type="password" id="password" ng-model="pass" placeholder="">
+	<input type="password" id="pass" ng-model="pass" placeholder="">
 	<br>
 	<br>
 	<button type="submit">Submit</button>

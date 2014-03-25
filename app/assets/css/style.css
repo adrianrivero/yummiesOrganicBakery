@@ -514,6 +514,7 @@ strong{
 
 .product{
 	text-align: justify;
+	height: 400px;
 	display: block;
 	width: 30%;
 	margin: 0 auto;
@@ -716,6 +717,7 @@ strong{
 
 #admin{
 width: 100%;
+padding: 0;
 }
 
 #admin img{
@@ -723,8 +725,12 @@ width: 100%;
 	margin: 0 auto;
 }
 
-#admin h1{
+#admin h1, #admin h5{
 	text-align: center;
+}
+
+#admin h5{
+	color:red;
 }
 
 #admin p{
@@ -749,6 +755,10 @@ width: 100%;
 
 #admin form{
 	margin-top: 150px;
+}
+
+.loggedin{
+	margin-top: -100px;
 }
 
 .clear{

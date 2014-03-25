@@ -1,4 +1,4 @@
-var app = angular.module('YummiesApp', ['ngAnimate','ngRoute','firebase'])
+var app = angular.module('YummiesApp', ['ngAnimate','ngRoute','firebase','ngResource'])
 
 	.config(['$routeProvider', function (routes) {
 
